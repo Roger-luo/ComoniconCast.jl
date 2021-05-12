@@ -12,6 +12,10 @@ MatchCore = "5dd3f0b1-72a9-48ad-ae6e-79f673da005f"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [compat]
+ComoniconOptions = "0.1"
+ComoniconTypes = "0.1"
+ExproniconLite = "0.6"
+MatchCore = "0.1"
 julia = "1.6.1"
 
 [extras]
