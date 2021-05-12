@@ -1,6 +1,10 @@
 using ComoniconCast
 using Test
 
-@testset "ComoniconCast.jl" begin
-    # Write your tests here.
+@testset "cast" begin
+    include("cast.jl")
+end
+
+@testset "markdown" begin
+    include("markdown.jl")
 end
