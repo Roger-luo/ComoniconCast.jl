@@ -2,7 +2,6 @@ module ComoniconCast
 
 using Pkg
 using Markdown
-using MatchCore
 using ExproniconLite
 using ComoniconOptions
 using ComoniconTypes

@@ -89,15 +89,15 @@ end
 
     def = @expr JLFunction function foo(;option1::Bool=true)
     end
-    @test_throws Meta.ParseError split_leaf_command(def)
+    @test_throws ErrorException split_leaf_command(def)
     
     def = @expr JLFunction function foo(;option1::Bool)
     end
-    @test_throws Meta.ParseError split_leaf_command(def)
+    @test_throws ErrorException split_leaf_command(def)
 
     def = @expr JLFunction function foo(;option1)
     end
-    @test_throws Meta.ParseError split_leaf_command(def)
+    @test_throws ErrorException split_leaf_command(def)
 end
 
 @test_throws ErrorException eval(:(
